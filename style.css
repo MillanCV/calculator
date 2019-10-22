@@ -1,0 +1,102 @@
+
+  body {
+    font-family: monospace;
+    color: black;
+    width: 300px;
+}
+
+button {
+    border: none;
+    color: black;
+    font-family: monospace;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.result {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: black;
+    height: 50px;
+    align-items: center;
+}
+
+.number-result {
+    color: white;
+    margin: 10px;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: black;
+    height: 312px;
+}
+
+.thick-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 75px;
+}
+
+.thin-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+
+.button.mid {
+    width: 49.7%;
+    background-color: lightgray;
+}
+
+.button.mid:hover  {
+    background-color: white;
+}
+
+.button.mid:active  {
+    background-color: gray;
+}
+
+.button.small {
+    width: 24.5%;
+    background-color: lightgray;
+}
+
+.button.small.end {
+    background-color: orange;
+}
+
+.button.small:hover  {
+    background-color: white;
+}
+
+.button.small:active  {
+    background-color: gray;
+}
+
+.button.small.end:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.button.small.end:active {
+    background-color:orangered;
+}
+
+.button.big {
+    width: 74.9%;
+    background-color: lightgray;
+}
+
+.button.bign:hover {
+    background-color: white;
+}
+
+.button.big:active {
+    background-color: gray;
+}
